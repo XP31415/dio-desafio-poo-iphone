@@ -13,7 +13,6 @@ public class Smartphone implements AparelhoTelefonico, NavegadorInternet, Reprod
 
     public void iniciarCorreioVoz() {
         System.out.println("Você possui 5 mensagens de voz não ouvidas!\n");
-        //System.out.println("O número que você ligou está fora de área. Grave seu recado após o sinal!\n\t... BEEP");
     }
 
     public void ligar(String numero) {
